@@ -1,0 +1,173 @@
+nav.navbar {
+  background-color: #1e202b;
+}
+
+.para-logo {
+  font-size: 10px;
+  color: #ffffff;
+}
+
+nav ul .link-active {
+  border: 2px solid #009ad8;
+  margin-inline: 10px;
+  border-radius: 50px;
+}
+
+nav ul .link-active .active {
+  color: #009ad8 !important;
+}
+.nav-item {
+  margin-inline: 10px;
+  border: 2px solid transparent;
+}
+
+.nav-item:hover {
+  border: 2px solid #009ad8;
+  color: #009ad8;
+  border-radius: 50px;
+}
+
+.nav-item a:hover {
+  color: #009ad8 !important;
+}
+
+.bg-img {
+  background-image: url(img/banner.png);
+  height: 20rem;
+  background-position: center;
+  background-size: cover;
+}
+
+section .container {
+  position: relative;
+}
+
+.custom-search {
+  display: flex;
+  align-items: center;
+  background-color: #1e202b;
+  border-radius: 30px;
+  padding: 0.5rem;
+  position: absolute;
+  z-index: 99;
+  width: 98%;
+  top: 50px;
+}
+
+.custom-search input {
+  flex: 1;
+  background: transparent;
+  border: none;
+  color: #fff;
+  font-size: 16px;
+  padding-left: 15px;
+}
+
+.custom-search input:focus {
+  outline: none;
+  box-shadow: none;
+}
+
+.custom-search button {
+  background-color: #00a2ff;
+  border: none;
+  color: white;
+  border-radius: 30px;
+  padding: 0.5rem 2rem;
+}
+
+.custom-search button:hover {
+  background-color: #008cd4;
+}
+
+section.current-weather {
+  background-color: #1e202b !important;
+  height: 22rem;
+}
+
+section.current-weather .container .row h2 {
+  font-size: 3rem;
+}
+
+section.current-weather .container .row p {
+  margin: 0;
+}
+
+section.current-weather .container .row img {
+  margin-top: 10px;
+}
+
+section.current-weather .row-special {
+  position: relative;
+  bottom: 9rem;
+}
+
+section.current-weather .container .card {
+  height: 25rem;
+}
+
+section.current-weather .row-special .card-special {
+  background-color: #252734 !important;
+  /* height: 25rem; */
+}
+
+section.current-weather .row .card-body {
+  background-color: #323544;
+  /* height: 25rem; */
+}
+
+.navbar-toggler-icon {
+  background-image: url("data:image/svg+xml;charset=UTF8,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 30 30'%3E%3Cpath stroke='white' stroke-width='2' d='M4 7h22M4 15h22M4 23h22'/%3E%3C/svg%3E");
+}
+
+.navbar-toggler {
+  border-color: transparent;
+  background-color: transparent;
+}
+
+.forecast-card {
+  background-color: #1e202b;
+  border-radius: 10px;
+  text-align: center;
+}
+
+.footer {
+  background-color: #323544;
+  padding: 20px 0;
+}
+
+.footer input {
+  background-color: #1e202b;
+  border: none;
+  color: #ffffff;
+  border-radius: 30px;
+  padding: 10px 20px;
+}
+
+.footer input:focus {
+  outline: none;
+  box-shadow: none;
+}
+
+.footer button {
+  background-color: #00a2ff;
+  border: none;
+  border-radius: 30px;
+  padding: 10px 20px;
+  color: #fff;
+}
+
+.footer button:hover {
+  background-color: #008cd4;
+}
+
+.social-icons a {
+  color: #ffffff;
+  font-size: 20px;
+  margin: 0 10px;
+  transition: color 0.3s;
+}
+
+.social-icons a:hover {
+  color: #00a2ff;
+}

@@ -1,0 +1,130 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>weather app</title>
+    <link
+      rel="stylesheet"
+      href="Constants/bootstrap-5.3.3-dist/css/bootstrap.min.css"
+    />
+    <link rel="stylesheet" href="Constants/fontawesome/css/all.min.css" />
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <!-- nav-bar -->
+    <nav class="navbar navbar-expand-lg">
+      <div class="container">
+        <div class="py-4 d-flex align-items-center justify-content-center">
+          <img src="img/logo.png" alt="weather logo" />
+          <div
+            class="content-logo d-flex flex-column align-items-center justify-content-center"
+          >
+            <a class="navbar-brand text-white px-2" href="/">Weather</a>
+            <p class="para-logo text-white px-2">tagline goes here</p>
+          </div>
+        </div>
+
+        <button
+          class="navbar-toggler"
+          type="button"
+          data-bs-toggle="collapse"
+          data-bs-target="#navbarSupportedContent"
+          aria-controls="navbarSupportedContent"
+          aria-expanded="false"
+          aria-label="Toggle navigation"
+        >
+          <span class="navbar-toggler-icon"
+            ><i class="fa-solid fa-bars"></i
+          ></span>
+        </button>
+
+        <div class="collapse navbar-collapse" id="navbarSupportedContent">
+          <ul class="navbar-nav ms-auto mb-2 mb-lg-0 py-4">
+            <li class="nav-item px-3 link-active">
+              <a class="nav-link active text-white" aria-current="page" href="#"
+                >Home</a
+              >
+            </li>
+            <li class="nav-item px-3">
+              <a class="nav-link text-white" href="#"> News </a>
+            </li>
+            <li class="nav-item px-3">
+              <a class="nav-link text-white" href="#">Live cameras</a>
+            </li>
+            <li class="nav-item px-3">
+              <a class="nav-link text-white" href="#">Photos</a>
+            </li>
+            <li class="nav-item px-3">
+              <a class="nav-link text-white" href="#">Contact</a>
+            </li>
+          </ul>
+        </div>
+      </div>
+    </nav>
+
+    <!-- search -->
+
+    <section>
+      <div class="container">
+        <div class="custom-search shadow mx-auto">
+          <input
+            type="text"
+            placeholder="Find your location..."
+            aria-label="Search"
+            id="search"
+          />
+          <button type="button">Find</button>
+        </div>
+      </div>
+      <div class="bg-img"></div>
+    </section>
+
+    <!-- Current Weather -->
+
+    <section class="current-weather bg-dark text-light">
+      <div class="container py-5">
+        <div id="rowData" class="row row-special"></div>
+      </div>
+    </section>
+
+    <!-- Footer Section -->
+
+    <footer class="footer text-center">
+      <div class="container">
+        <div class="row">
+          <div class="col-md-6 mx-auto mb-3">
+            <form class="d-flex">
+              <input
+                type="email"
+                class="form-control me-2"
+                placeholder="Enter your email to subscribe..."
+              />
+              <button type="submit" class="btn">Subscribe</button>
+            </form>
+          </div>
+        </div>
+        <div class="row">
+          <div class="col-12">
+            <div class="social-icons">
+              <a href="#"><i class="fab fa-facebook"></i></a>
+              <a href="#"><i class="fab fa-twitter"></i></a>
+              <a href="#"><i class="fab fa-google-plus"></i></a>
+              <a href="#"><i class="fab fa-pinterest"></i></a>
+            </div>
+          </div>
+        </div>
+        <div class="row mt-3">
+          <div class="col-12">
+            <p class="text-white mb-0">
+              &copy; 2014 Company name. Designed by Themezy. All rights
+              reserved.
+            </p>
+          </div>
+        </div>
+      </div>
+    </footer>
+    <script src="Constants/bootstrap-5.3.3-dist/js/bootstrap.bundle.min.js"></script>
+    <script src="script.js"></script>
+  </body>
+</html>
