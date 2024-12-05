@@ -50,7 +50,7 @@ section .container {
   padding: 0.5rem;
   position: absolute;
   z-index: 99;
-  width: 98%;
+  /* width: 96%; */
   top: 50px;
 }
 
@@ -154,8 +154,6 @@ section.current-weather .container .card {
   background-color: #1e202b;
   border-radius: 30px;
   padding: 0.5rem;
-  width: 100%;
-  max-width: 800px;
 }
 
 .footer .custom-footer input {
@@ -177,7 +175,7 @@ section.current-weather .container .card {
   border: none;
   color: white;
   border-radius: 30px;
-  padding: 0.5rem 2rem;
+  padding: 0.5rem 3%;
   cursor: pointer;
   transition: background-color 0.3s;
 }
